@@ -16,9 +16,16 @@ export default function RootLayout({
       <body className="bg-gray-100">
         {/* AREA HEADER */}
         <header className="bg-[#bed4d2] text-[#8d241d] py-4 px-6 shadow-md">
-            <h1 className="text-2xl font-bold font-sans">Toko Roti Permata</h1>
+          <h1 className="text-2xl font-bold font-sans">Toko Roti Permata</h1>
         </header>
         {/* AREA HEADER */}
+
+        {/* AREA KONTEN */}
+        <main className="py-6">{children}</main>
+        {/* AREA KONTEN */}
+
+
+
       </body>
     </html>
   );
