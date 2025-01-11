@@ -24,7 +24,11 @@ export default function RootLayout({
         <main className="py-6">{children}</main>
         {/* AREA KONTEN */}
 
-
+        {/* AREA FOOTER */}
+        <footer className="bg-[#bed4d2] text-[#8d241d] py-4 text-center">
+          <p className="font-bold font-sans">TOKO ROTI PERMATA</p>
+        </footer>
+        {/* AREA FOOTER */}
 
       </body>
     </html>
